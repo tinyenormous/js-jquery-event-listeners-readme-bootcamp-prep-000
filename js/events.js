@@ -24,4 +24,11 @@ function pressIt(){
       alert('youuuuuuuuuu')
     }
   })
+  
+function submitIt(){
+  $(document).on('submit', function(){
+    if (e.keyCode === 71){
+      alert('youuuuuuuuuu')
+    }
+  })  
 }
