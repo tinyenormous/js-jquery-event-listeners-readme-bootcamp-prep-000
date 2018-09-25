@@ -20,7 +20,7 @@ function frameIt(){
 
 function pressIt(){
   $(document).on('keyup', function(e){
-    if (e.keyCode === 71){
+    if (e.which === 71){
       alert('youuuuuuuuuu')
     }
   })
