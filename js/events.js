@@ -27,8 +27,6 @@ function pressIt(){
   
 function submitIt(){
   $(document).on('submit', function(){
-    if (e.keyCode === 71){
-      alert('youuuuuuuuuu')
-    }
+      alert('youuuuuuuuuu'
   })  
 }
