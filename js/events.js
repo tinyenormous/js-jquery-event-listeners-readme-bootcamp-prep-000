@@ -19,7 +19,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('img').on('keydown', function(e){
+  $(document).on('keydown', function(e){
     if (e.key === 'g'){
       alert('youuuuuuuuuu')
     }
