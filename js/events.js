@@ -17,3 +17,9 @@ function frameIt(){
     $(this).addClass( "tasty" );
   })
 }
+
+function pressIt(){
+  $('img').on('keydown', function(){
+    $(this).addClass( "tasty" );
+  })
+}
