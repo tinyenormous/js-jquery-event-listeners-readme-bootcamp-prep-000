@@ -19,7 +19,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $(document).on('keydown', function(e){
+  $(document).on('keyup', function(e){
     if (e.keyCode === 71){
       alert('youuuuuuuuuu')
     }
