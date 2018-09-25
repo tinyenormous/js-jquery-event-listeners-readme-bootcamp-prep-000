@@ -12,7 +12,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $(document).on('keyup', function(e){
+  $('#typing').on('keyup', function(e){
     if (e.which == 71){
       alert('youuuuuuuuuu');
     }
