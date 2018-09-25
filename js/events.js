@@ -19,7 +19,9 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('img').on('keydown', function(){
-    $(this).addClass( "tasty" );
+  $('img').on('keydown', function(e){
+    if (e.key === 'g'){
+      alert('youuuuuuuuuu')
+    }
   })
 }
